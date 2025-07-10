@@ -71,7 +71,7 @@ def buscar_estudiantes():
         
         """
             
-        
+        # A este codigo le falta usar try except y el match case para el menu
 while True:
     print("1. Agregar nuevos estudiantes")
     print("2. Buscar estudiantes (por ID o nombre):")

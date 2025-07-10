@@ -1,11 +1,15 @@
 txt = input("Ingresa un texto: \n")
-            
-def veriMaxlong():
-    longTxt = len(txt)
-    if longTxt < 20:
+maxTxt = 20
+
+def veriMaxlong(text, numberText):
+
+    if numberText > len(text):
         print(txt)
-    elif longTxt > 20:
+    elif numberText < len(text):
+        print(text[:numberText])
+
         
+veriMaxlong(txt, maxTxt)   
         
 
 
